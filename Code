@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Documentation</title>
+  <style>
+  
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    #main-doc {
+      margin: 20px;
+    }
+
+    .main-section {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .main-section > header {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .main-section > p {
+      margin: 10px 0;
+    }
+
+    .main-section > code {
+      background-color: #f5f5f5;
+      padding: 2px;
+      font-family: Consolas, monospace;
+    }
+
+    .main-section > ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    #navbar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 200px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    #navbar > header {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Navigation</header>
+    <a class="nav-link" href="#section_one">Section One</a>
+    <a class="nav-link" href="#section_two">Section Two</a>
+    <a class="nav-link" href="#section_three">Section Three</a>
+    <a class="nav-link" href="#section_four">Section Four</a>
+    <a class="nav-link" href="#section_five">Section Five</a>
+    
+  </nav>
+  <div id="main-doc">
+    <section class="main-section" id="section_one">
+      <header>Section One</header>
+      <p>Content for section one...</p>
+      <p>More content for section one...</p>
+      <code>Code example here...</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+      </ul>
+      <p>Additional content for section one...</p>
+    </section>
+    <section class="main-section" id="section_two">
+      <header>Section Two</header>
+      <p>Content for section two...</p>
+      <p>More content for section two...</p>
+      <code>Another code example...</code>
+      <ul>
+        <li>List item A</li>
+        <li>List item B</li>
+      </ul>
+      <p>Additional content for section two...</p>
+    </section>
+    <section class="main-section" id="section_three">
+      <header>Section Three</header>
+      <p>Content for section three...</p>
+      <p>More content for section three...</p>
+      <code>Code example for section three...</code>
+      <ul>
+        <li>List item X</li>
+        <li>List item Y</li>
+      </ul>
+      <p>Additional content for section three...</p>
+    </section>
+    <section class="main-section" id="section_four">
+      <header>Section Four</header>
+      <p>Content for section four...</p>
+      <p>More content for section four...</p>
+      <code>Another code example for section four...</code>
+      <ul>
+        <li>List item P</li>
+        <li>List item Q</li>
+      </ul>
+      <p>Additional content for section four...</p>
+    </section>
+    <section class="main-section" id="section_five">
+      <header>Section Five</header>
+      <p>Content for section five...</p>
+      <p>More content for section five...</p>
+      <code>Code example for section five...</code>
+      <ul>
+        <li>List item M</li>
+        <li>List item N</li>
+      </ul>
+      <p>Additional content for section five...</p>
+    </section>
+  
+  </div>
+</body>
+</html>
